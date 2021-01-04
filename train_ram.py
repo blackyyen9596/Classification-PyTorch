@@ -16,7 +16,7 @@ import torch.optim as optim
 from cv2 import cv2
 
 from torch.utils.data import DataLoader
-from tools.dataloader_bg import DataLoaderX
+from utils.dataloader_bg import DataLoaderX
 
 path_train = r'D:\training_dataset\simpsons\train'
 path_val = r'D:\training_dataset\simpsons\val'

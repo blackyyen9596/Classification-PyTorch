@@ -16,9 +16,9 @@ import torch.optim as optim
 from cv2 import cv2
 
 from torch.utils.data import DataLoader
-from tools.dataloader_bg import DataLoaderX
+from utils.dataloader_bg import DataLoaderX
 
-from tools.dataloader_dali import get_imagenet_iter_dali
+from utils.dataloader_dali import get_imagenet_iter_dali
 
 if torch.cuda.is_available():
     device = torch.device('cuda')
